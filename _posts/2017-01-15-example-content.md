@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 tags: [Demo, Example Content]
+categories: [example category]
 comment: true
 ---
 
