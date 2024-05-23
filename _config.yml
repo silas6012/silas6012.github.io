@@ -1,7 +1,7 @@
 # Site settings
 title: "TextLog"
 description: "Not over yet"
-baseurl: "/textlog" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
+baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
 url: ""
 author: "Shilong"
 
