@@ -2,7 +2,7 @@
 title: "TextLog"
 description: "Not over yet"
 baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
-url: ""
+url: "https://silas6012.github.io"
 author: "Shilong"
 
 # Build settings
@@ -17,6 +17,7 @@ disqus_shortname:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 
 exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
 
