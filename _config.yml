@@ -1,5 +1,5 @@
 # Site settings
-title: "TextLog"
+title: "BetterLateThanNever"
 description: "Not over yet"
 baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
 url: "https://silas6012.github.io"
