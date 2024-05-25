@@ -31,21 +31,27 @@ layout: default
   <hr>
   {% if page.comment %}
     <!-- {% include disqus.html %} -->
-    <script src="https://giscus.app/client.js"
-        data-repo="silas6012/silas6012.github.io"
-        data-repo-id="R_kgDOL_EdEQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOL_EdEc4CfmdH"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <script src="https://giscus.app/client.js"
+              data-repo="silas6012/silas6012.github.io"
+              data-repo-id="R_kgDOL_EdEQ"
+              data-category="Announcements"
+              data-category-id="DIC_kwDOL_EdEc4CfmdH"
+              data-mapping="pathname"
+              data-strict="0"
+              data-reactions-enabled="1"
+              data-emit-metadata="0"
+              data-input-position="top"
+              data-theme="preferred_color_scheme"
+              data-lang="zh-CN"
+              data-loading="lazy"
+              crossorigin="anonymous"
+              async>
+          </script>
+        </div>
+      </div>
+    </div>
   {% endif %}
 </article>
