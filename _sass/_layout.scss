@@ -38,6 +38,7 @@
     border-bottom: 1px solid $grey-color-light;
     margin-top: -2rem;
     max-width: $max-width;
+    line-height: 1.5; // Increased line height
     p {
       font-size: $small-font-size;
     }
@@ -51,8 +52,7 @@
     //font-variant: small-caps;
     font-size: 1.5rem;
     font-weight: bold;
-    line-height: 1.5; // Increased line height
-
+    
     a,
     a:hover {
         text-decoration: none;
