@@ -46,8 +46,7 @@ p,
 pre,
 table,
 ul {
-    margin-bottom: calc($spacing-unit / 1.5); //increase the space between headline and second headline, the original is 2
-    // margin-bottom: $spacing-unit;
+    margin-bottom: calc($spacing-unit / 2); //the space between headline and second headline, the original is 2
 }
 /**
  * Images
