@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Practical
+title: Practicals
 ---
 
 technology ideas, computers, etc.
