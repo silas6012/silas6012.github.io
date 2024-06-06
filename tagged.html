@@ -8,6 +8,14 @@ title: Tagged
 	{% assign ttags = post.tags | join:'|' | append:'|' %}
 	{% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
+
+{% for page in site.pages %}
+  {% if page.path contains 'practicals' %}
+    {% assign ttags = page.tags | join:'|' | append:'|' %}
+    {% assign rawtags = rawtags | append:ttags %}
+  {% endif %}
+{% endfor %}
+	
 {% assign rawtags = rawtags | split:'|' | sort %}
 
 {% assign tags = "" %}
@@ -33,12 +41,19 @@ title: Tagged
 		<h3 class="tag-title" id="{{ tag | slugify }}"># {{ tag }}</h3>
 		<ul class="post-list">
 			{% for post in site.posts %}
-	    {% if post.tags contains tag %}
-			<li>
-				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-			</li>
-			{% endif %}
-	    {% endfor %}
+	    		{% if post.tags contains tag %}
+					<li>
+						<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+					</li>
+				{% endif %}
+	    	{% endfor %}
+			{% for page in site.pages %}
+				{% if page.path contains 'practicals' and page.tags contains tag %}
+					<li>
+						<a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
+					</li>
+				{% endif %}
+		  	{% endfor %}
 		</ul>
 		{% endfor %}
 	</section>
