@@ -2,6 +2,7 @@
 layout: post
 title: 周国平谈兴趣和自我
 tags: [人生, 兴趣, 自我, 周国平]
+categories: [人生]
 comment: true
 ---
 

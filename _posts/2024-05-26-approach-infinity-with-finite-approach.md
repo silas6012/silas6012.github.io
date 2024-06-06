@@ -2,6 +2,7 @@
 layout: post
 title: 以有限接近无限
 tags: [人生, 无限]
+category: [人生]
 author: silas6012
 comment: true
 ---

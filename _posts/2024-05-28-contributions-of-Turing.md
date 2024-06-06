@@ -2,6 +2,7 @@
 layout: post
 title: 图灵的贡献
 tags: [知识, 贡献]
+categories: [学问]
 comment: true
 ---
 

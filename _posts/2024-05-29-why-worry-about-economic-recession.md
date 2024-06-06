@@ -2,6 +2,7 @@
 layout: post
 title: 经济衰退何需担心
 tags: [经济, 消费]
+categories: [学问]
 comment: true
 ---
 

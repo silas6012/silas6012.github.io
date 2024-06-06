@@ -2,6 +2,7 @@
 layout: post
 title: 先生活后读书
 tags: [读书, 生活]
+categories: [学问]
 comment: true
 ---
 
