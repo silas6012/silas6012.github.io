@@ -9,12 +9,13 @@ title: Tagged
 	{% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
 
-{% for page in site.pages %}
+<!-- stop the practicals section -->
+<!-- {% for page in site.pages %}
   {% if page.path contains 'practicals' %}
     {% assign ttags = page.tags | join:'|' | append:'|' %}
     {% assign rawtags = rawtags | append:ttags %}
   {% endif %}
-{% endfor %}
+{% endfor %} -->
 	
 {% assign rawtags = rawtags | split:'|' | sort %}
 
@@ -47,13 +48,15 @@ title: Tagged
 					</li>
 				{% endif %}
 	    	{% endfor %}
-			{% for page in site.pages %}
+
+			<!-- stop the practicals section -->
+			<!-- {% for page in site.pages %}
 				{% if page.path contains 'practicals' and page.tags contains tag %}
 					<li>
 						<a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
 					</li>
 				{% endif %}
-		  	{% endfor %}
+		  	{% endfor %} -->
 		</ul>
 		{% endfor %}
 	</section>
