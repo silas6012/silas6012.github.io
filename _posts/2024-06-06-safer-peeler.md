@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 刨皮刀
+title: 厨房刨皮刀
 tags: [工具, 机械]
 categories: [发明]
 ---
