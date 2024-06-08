@@ -2,6 +2,7 @@
 layout: post
 title: 关于AI的思想片段
 tags: [AI, 大脑, 人工智能]
+categories: [学问]
 comment: true
 ---
 
