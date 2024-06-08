@@ -2,6 +2,7 @@
 layout: post
 title: 乒乓球辩证法
 tags: [乒乓]
+categories: [娱乐]
 comment: true
 ---
 

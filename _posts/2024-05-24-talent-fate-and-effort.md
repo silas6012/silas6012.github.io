@@ -2,6 +2,7 @@
 layout: post
 title: 才、命、力
 tags: [人生]
+categories: [人生]
 comment: true
 ---
 
