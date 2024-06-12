@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 错误动作为什么很难纠正
-tags: [娱乐，学习]
+tags: [娱乐, 学习]
 # categories: []
 ---
 

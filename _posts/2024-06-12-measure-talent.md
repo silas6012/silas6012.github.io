@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 教育的标准错了
-tags: [教育，学习]
+tags: [教育, 学习]
 # categories: []
 ---
 
