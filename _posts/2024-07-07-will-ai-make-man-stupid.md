@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI会让人变成笨吗？
+title: AI会让人变笨吗？
 tags: [AI, 人生, 社会]
 # categories: []
 ---
