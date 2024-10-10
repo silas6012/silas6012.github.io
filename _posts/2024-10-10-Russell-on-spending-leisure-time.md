@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 罗素说聪明地度过闲暇
+title: 罗素说闲暇
 tags: [罗素, 人生, 闲暇]
 # categories: []
 ---
