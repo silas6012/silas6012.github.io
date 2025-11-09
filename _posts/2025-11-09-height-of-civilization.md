@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 文明的高度
-tags: [人生, 意义,文明]
+tags: [人生, 意义, 文明]
 # categories: []
 ---
 
